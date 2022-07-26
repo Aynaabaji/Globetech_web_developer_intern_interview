@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+:root{
+  --blk:#000633;
+  --blk2:#212121;
+  --blk3:#928B8B;
+  --blk4:#8B8282;
+  --form_border:#8C8383;
+  --white:#fff;
+  /* --body_background_gradiant1:#000529;
+  --body_background_gradiant2:#050B43; */
+  --login_background2:#C0CDD3;
+  --primary:#2397CD;
+  --secondary:#D4F454;
+  --nav_active:#D7F561;
+  --banner_header_gradiant:#E3F891,#CBF231;
+  --btn_hover_color:#00052F;
+  --banner_heading1:#28ACE2;
+  --banner_span:#9EB540;
+  --banner_paragraph:#2EBBE5;
+  --button_gradiant:#DEF77D,#D0F344;
+  --button_color1:#8FE5FF;
+  --circle_gradiant1:#5CD9FF,#C2F1FF;
+  --orbit_gradiant:#006E8F;
+  --login_header:#0096C7;
+
+  --transit:all 0.6s ease;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+
+body{
+  width: 1920px;
+  font-family: 'Poppins', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn{
+  display: inline-block;
+  padding: 1rem 4.5rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.container{
+  width: 1600px;
+  margin: 0 auto;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

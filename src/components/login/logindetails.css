@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+
+#ldets{
+    display: grid;
+    grid-template-columns: 514px 1406px;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+.ldets_left{
+    background: #000529;
+    text-align: center;
+}
+
+.ldets_left>h1{
+    text-align: center;
+    font-size: 44px;
+    line-height: 53.64px;
+    letter-spacing: 5px;
+    font-weight: 600;
+    padding-top: 10rem;
+    color: var(--login_header);
+}
+
+.ldets_left>p{
+    color: var(--white);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18.29px;
+    padding-top: 4rem;
+}
+
+.ldets_right{
+    background: var(--login_background2);
+    height: 1314px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_form{
+    width: 478px;
+    height: 407px;
+    background-color: var(--white);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    padding: 23px;
+}
+
+.login_form{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.login_form>h1{
+    color: var(--blk2);
+    font-size: 32px;
+    font-weight: 300;
+    padding-top: 23px;
+}
+
+.login_form>small{
+    color: var(--blk3);
+}
+
+.login_form>input{
+    padding: 21px;
+    border: 1px solid var(--form_border);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.login_form>input::placeholder{
+    color: var(--blk3);
+    font-size: 12px;
+}
+
+.login_form>button{
+    font-size: 16px;
+    color: var(--white);
+    background: var(--login_header);
+    padding: 19px 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
